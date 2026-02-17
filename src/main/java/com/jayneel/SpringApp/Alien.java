@@ -6,12 +6,30 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Alien {
+    private  int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     @Autowired
-    Laptop laptop;
+    private Computer computer;
+
+    public Computer getComputer() {
+        return computer;
+    }
+
+    @Autowired
+    public void setComputer(Computer computer) {
+        this.computer = computer;
+    }
 
     public void code() {
-        laptop.compile();
+        computer.compile();
         System.out.println("Coding....");
     }
 }
