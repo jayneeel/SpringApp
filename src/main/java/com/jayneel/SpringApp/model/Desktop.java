@@ -1,4 +1,4 @@
-package com.jayneel.SpringApp;
+package com.jayneel.SpringApp.model;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

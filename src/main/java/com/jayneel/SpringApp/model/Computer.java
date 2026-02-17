@@ -1,4 +1,4 @@
-package com.jayneel.SpringApp;
+package com.jayneel.SpringApp.model;
 
 public interface Computer {
 
