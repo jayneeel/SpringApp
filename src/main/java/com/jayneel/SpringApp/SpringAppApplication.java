@@ -17,6 +17,7 @@ public class SpringAppApplication {
 //		alien.code();
 
 		LaptopService laptopService = context.getBean(LaptopService.class);
+		laptopService.addLaptop(new Laptop());
 
 	}
 
